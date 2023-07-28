@@ -1,0 +1,860 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+body{
+    padding: 44px 160px;
+    font-family: Helvetica, sans-serif;
+    background-image: linear-gradient(to right top, #eeeeee,#eeeeee,#eeeeee, #e4f1ff);
+    color: #131313;
+    display: block;
+}
+.oslinks{
+    text-decoration: none;
+    color: #131313;
+}
+#menu{
+    display: flex;
+}
+body header{
+    width: 100%;
+    height: 44px;
+}
+
+#nomesite{
+    font-family: 'Bagel Fat One', cursive;
+    font-weight: 400;
+    font-size: 24px;
+}
+#menulista{
+    display: flex;
+    justify-content: space-around;
+}
+.oslinks:hover{
+    color: #da1f2e;
+    border-bottom: 1px solid #da1f2e;
+}
+
+body nav{
+    letter-spacing: 1px;
+    width: 100%;
+    height: 44px;
+}
+#h1principal{
+    padding-top: 200px;
+    font-size: 144px;
+}
+#h1ponto{
+    color: #da1f2e;
+}
+#h1ponto:hover{
+    color: #1f83da;
+}
+#textoprincipal{
+    padding: 12px 12px 24px 12px;
+    font-size: 18px;
+    width: 60vw;
+    line-height: 24px;
+}
+#servicos{
+    width: 100%;
+    border-top: 1px solid #131313;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+#servicos div{
+    
+    padding: 44px;
+    border: 1px solid #131313;
+    text-align: center;
+    margin: 12px;
+    width: 33%;
+}
+#servicos h2{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#servicos div:hover{
+    background-color: #131313;
+    color: #eeeeee;
+}
+body footer{
+    color: #9a9a9a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dfe2e5;
+    width: 100%;
+    height: 356px;
+}
+.footerdiv{
+    width: 33%;
+    padding: 44px;
+}
+.footerdiv h3{
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+.footerdiv a{
+    text-decoration: none;
+    color: #9a9a9a;
+}
+.footerdiv p{
+    line-height: 18px;
+    margin-top: 8px;
+}
+.footerdiv a:hover{
+    color: #da1f2e;
+}
+#botaotalk{
+    margin-top: 12px;
+}
+.rsocial{
+    fill: #9a9a9a;
+}
+.rsocial:hover{
+    fill: #da1f2e;
+}
+#rodape{
+    color: #9a9a9a;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    background-color: #eeeeee;
+
+}
+
+/* <=========== PAGINA ABOUT ===========> */
+
+#fotosobre{
+    background-image: url(../imagens/fotosobresite.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    background-color: #eeeeee;
+    width: 100%;
+    height: 1144px;
+    margin-top: 20px;
+}
+#textosobre{
+    margin: 88px;
+    width: 600px;
+}
+#textosobre p{
+    background-color: white;
+    font-size: 22px;
+    padding: 88px;
+    line-height: 32px;
+
+}
+#textomapa{
+    background-color: white;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+#mapastudio, #textoconvite{
+    width: 50%;
+    text-align: center;
+}
+#mapastudio iframe{
+    width: 100%;
+    padding: 24px 0;
+}
+
+#textoconvite h4{
+    padding: 24px;
+    font-size: 44px;
+}
+
+/* <=========== PAGINA CONTACT ===========> */
+
+#forming{
+    display: flex;
+}
+#formes{
+   width: 40%;
+   height: 800px;
+
+}
+#formes h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 56px;
+    font-size: 120px;
+}
+#formdi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 60%;
+   height: 800px;
+
+}
+.inputtxt{
+    margin-top: 12px;
+    width: 560px;
+    height: 44px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #131313;
+    outline: none;
+    font-size: 18px;
+}
+.inputtxt::placeholder{
+    color: #747474;
+    font-size:medium;
+}
+#txtarea{
+    width: 514px;
+    height: 200px;
+    border: 1px solid #131313;
+    padding: 24px;
+
+}
+.formspace{
+    padding-bottom: 24px;
+}
+
+#formbotao{
+    border: none;
+    color: white;
+    background-color: #131313;
+    width: 120px;
+    height: 36px;
+}
+#formbotao:hover{
+    color: white;
+    background-color: #373737;
+}
+#formbotao:active{
+    background-color: #da1f2e;
+}
+.radiospace{
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
+/* <=========== PAGINA PROJETOS ===========> */
+
+.grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid-item {
+      padding: 10px;
+      height: 400px;
+      overflow: hidden;
+    }
+    .grid-item:hover{
+        filter: opacity(12%);
+    }
+
+    #projeto1{
+        background-image: url(../imagens/Prancheta\ 1.png);
+    }
+    #projeto2{
+        background-image: url(../imagens/Prancheta\ 2.png);
+    }
+    #projeto3{
+        background-image: url(../imagens/Prancheta\ 3.png);
+    }
+    #projeto4{
+        background-image: url(../imagens/Prancheta\ 4.png);
+    }
+    #projeto5{
+        background-image: url(../imagens/Prancheta\ 5.png);
+    }
+    #projeto6{
+        background-image: url(../imagens/Prancheta\ 6.png);
+    }
+
+/* <=========== RESPONSIVE BREAKPOINTS ===========> */
+/* <=========== RESPONSIVE BREAKPOINTS ===========> */
+/* <=========== RESPONSIVE BREAKPOINTS ===========> */
+
+    @media(max-width: 280px){
+        body{
+            width: 100%;
+            padding: 12px;
+            background-image: none;
+            background-color: #eeeeee;
+        }
+        #menu{
+            flex-direction: column;
+            
+        }
+        header, #menulista{
+            text-align: center;
+            padding-top: 48px;
+        }
+        #h1principal{
+            font-size: 68px;
+            padding-top: 120px;
+        }
+        #textoprincipal{
+            padding: 16px 0  24px 0;
+            width: 100%;
+        }
+        #servicos{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #servicos div{
+            width: 100%;
+        }
+        body footer{
+            width: 100%;
+            height: 400px;
+            flex-direction: column;
+        }
+        .footerdiv{
+            margin: 24px 0;
+            padding: 0;
+            width: 80%;
+        }
+        #rodape{
+            margin: 40px 0;
+            padding: 0;
+            width: 100%;
+        }
+
+/* <=========== PAGINA PROJETOS ===========> */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .grid-item {
+            padding: 10px;
+            height: 144px;
+            overflow: hidden;
+        }
+        .grid-container{
+            margin: 48px 0 24px 0;
+        }
+        #projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6{
+            background-size: 320px;
+            background-position: center;
+            margin-bottom: 8px;
+        }
+        
+/* <=========== PAGINA ABOUT ===========> */
+        
+        #fotosobre{
+            background-image: none;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+            height: auto;
+        }
+        #fundores{
+            background-image: url(../imagens/fotosobresite.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 200px;
+            margin-top: 48px;
+        }
+
+        #textosobre{
+            width: 100%;
+            margin: 0;
+        }
+        #textosobre p{
+            background-color: white;
+            font-size: 12px;
+            padding: 12px;
+            line-height: 18px;
+        }
+        #textomapa{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between ;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        #mapastudio, #textoconvite{
+            width: 100%;
+            text-align: center;
+        }
+        #mapastudio iframe{
+            width: 100%;
+            padding: 48px 0 0 0 ;
+        }
+        #textoconvite h4{
+            padding: 48px 0 24px 0;
+            font-size: 28px;
+        }
+
+/* <=========== PAGINA CONTACT ===========> */
+        
+        #forming{
+            flex-direction: column;
+        }
+        #formes{
+            width: 100%;
+            height: auto;
+        }
+        #formdi{
+            display: block;
+            width: 100%;
+            height: auto;
+            align-items: normal;
+            justify-content: normal;
+
+        }
+        #formes h1{
+            width: 100%;
+            font-size: 44px;
+            justify-content: normal;
+            margin: 48px 0;
+        }
+        .inputtxt{
+            width: 100%;
+        }
+        #txtarea{
+            width: 92%;
+            height: normal;
+            border: 1px solid #131313;
+            padding: 0;
+            padding-top: 12px;
+            padding-left: 12px;
+}
+        
+
+}
+
+    @media (min-width: 281px) and (max-width: 540px){
+        body{
+            padding: 12px;
+        }
+        #menu{
+            flex-direction: column;
+            
+        }
+        header, #menulista{
+            text-align: center;
+            padding-top: 48px;
+        }
+        #h1principal{
+            font-size: 88px;
+            padding-top: 120px;
+        }
+        #textoprincipal{
+            padding: 16px 0  24px 0;
+            width: 100%;
+        }
+        #servicos{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        #servicos div{
+            width: 100%;
+        }
+        body footer{
+            width: 100%;
+            height: 400px;
+            flex-direction: column;
+        }
+        .footerdiv{
+            margin: 24px 0;
+            padding: 0;
+            width: 80%;
+
+        }
+        #rodape{
+            margin: 40px 0;
+            padding: 0;
+            width: 100%;
+        }
+        /* <=========== PAGINA CONTACT ===========> */
+        
+        #forming{
+            flex-direction: column;
+        }
+        #formes{
+            width: 100%;
+            height: auto;
+        }
+        #formdi{
+            display: block;
+            width: 100%;
+            height: auto;
+            align-items: normal;
+            justify-content: normal;
+
+        }
+        #formes h1{
+            width: 100%;
+            font-size: 44px;
+            justify-content: normal;
+            margin: 48px 0;
+        }
+        .inputtxt{
+            width: 100%;
+        }
+        #txtarea{
+            width: 92%;
+            height: normal;
+            border: 1px solid #131313;
+            padding: 0;
+            padding-top: 12px;
+            padding-left: 12px;
+}
+
+/* <=========== PAGINA PROJETOS ===========> */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+          }
+        .grid-item {
+            padding: 10px;
+            height: 244px;
+            overflow: hidden;
+          }
+        .grid-container{
+            margin: 48px 0 24px 0;
+        }
+        #projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6{
+            background-size: 520px;
+            background-position: center;
+            margin-bottom: 8px;
+        }
+
+/* <=========== PAGINA ABOUT ===========> */
+
+        #fotosobre{
+            background-image: none;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+            height: auto;
+        }
+        #fundores{
+            background-image: url(../imagens/fotosobresite.jpg);
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            height: 200px;
+            margin-top: 48px;
+        }
+        #textosobre{
+            width: 100%;
+            margin: 0;
+        }
+        #textosobre p{
+            background-color: white;
+            font-size: 12px;
+            padding: 12px;
+            line-height: 18px;
+        }
+        #textomapa{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between ;
+            align-items: center;
+            margin-bottom: 24px;
+        }
+        #mapastudio, #textoconvite{
+            width: 100%;
+            text-align: center;
+        }
+        #mapastudio iframe{
+            width: 100%;
+            padding: 48px 0 0 0 ;
+        }
+        #textoconvite h4{
+            padding: 48px 0 24px 0;
+            font-size: 28px;
+        }
+/* <=========== PAGINA CONTACT ===========> */
+        
+        #forming{
+            flex-direction: column;
+        }
+        #formes{
+            width: 100%;
+            height: auto;
+        }
+        #formdi{
+            display: block;
+            width: 100%;
+            height: auto;
+            align-items: normal;
+            justify-content: normal;
+
+        }
+        #formes h1{
+            width: 100%;
+            font-size: 60px;
+            justify-content: normal;
+            margin: 48px 0;
+        }
+        .inputtxt{
+            width: 100%;
+        }
+        #txtarea{
+            width: 92%;
+            height: normal;
+            border: 1px solid #131313;
+            padding: 0;
+            padding-top: 12px;
+            padding-left: 12px;
+        }
+        
+    }
+
+    @media(min-width: 541px) and (max-width: 840px){
+        body{
+            padding: 48px 24px ;
+        }
+        #textoprincipal{
+            width: 90%;
+        }
+
+/* <=========== PAGINA PROJETOS ===========> */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .grid-item {
+            padding: 10px;
+            height: 444px;
+            overflow: hidden;
+        }
+        .grid-container{
+            margin: 48px 0 24px 0;
+        }
+        #projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6{
+            background-size: 880px;
+            background-position: center;
+            margin-bottom: 8px;
+        }
+
+/* <=========== PAGINA ABOUT ===========> */
+        #fotosobre{
+            flex-direction: column-reverse;
+        }
+        #textomapa{
+            flex-direction: column;
+        }
+        #mapastudio{
+            width: 100%;
+        }
+        #textoconvite{
+            padding: 48px 0;
+        }
+
+        /* <=========== PAGINA CONTACT ===========> */
+        
+        #forming{
+            flex-direction: column;
+        }
+        #formes{
+            width: 100%;
+            height: auto;
+        }
+        #formdi{
+            display: block;
+            width: 100%;
+            height: auto;
+            align-items: normal;
+            justify-content: normal;
+
+        }
+        #formes h1{
+            width: 100%;
+            font-size: 88px;
+            justify-content: normal;
+            margin: 48px 0;
+        }
+        .inputtxt{
+            width: 100%;
+        }
+        #txtarea{
+            width: 92%;
+            height: normal;
+            border: 1px solid #131313;
+            padding: 0;
+            padding-top: 12px;
+            padding-left: 12px;
+}
+
+    }
+    
+    @media(min-width: 841px) and (max-width: 1000px){
+        body{
+            padding:44px ;
+        }
+        #textoprincipal{
+            width: 90%;
+        }
+
+/* <=========== PAGINA PROJETOS ===========> */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .grid-item {
+            padding: 10px;
+            height: 444px;
+            overflow: hidden;
+        }
+        .grid-container{
+            margin: 48px 0 24px 0;
+        }
+        #projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6{
+            background-size: 880px;
+            background-position: center;
+            margin-bottom: 8px;
+        }
+
+        /* <=========== PAGINA ABOUT ===========> */
+        #fotosobre{
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        #textomapa{
+            flex-direction: column;
+        }
+        #mapastudio{
+            width: 100%;
+        }
+        #textoconvite{
+            padding: 48px 0;
+        }
+        /* <=========== PAGINA CONTACT ===========> */
+        
+        #forming{
+            flex-direction: column;
+        }
+        #formes{
+            width: 100%;
+            height: auto;
+        }
+        #formdi{
+            display: block;
+            width: 100%;
+            height: auto;
+            align-items: normal;
+            justify-content: normal;
+
+        }
+        #formes h1{
+            width: 100%;
+            font-size: 120px;
+            justify-content: normal;
+            margin: 48px 0;
+        }
+        .inputtxt{
+            width: 100%;
+        }
+        #txtarea{
+            width: 92%;
+            height: normal;
+            border: 1px solid #131313;
+            padding: 0;
+            padding-top: 12px;
+            padding-left: 12px;
+}
+    }
+    @media(min-width: 1001px) and (max-width: 1200px){
+        body{
+            padding:44px ;
+        }
+        #textoprincipal{
+            width: 90%;
+        }
+
+/* <=========== PAGINA PROJETOS ===========> */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .grid-item {
+            padding: 10px;
+            height: 480px;
+            overflow: hidden;
+        }
+        .grid-container{
+            margin: 48px 0 24px 0;
+        }
+        #projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6{
+            background-size: 980px;
+            background-position: center;
+            margin-bottom: 8px;
+        }
+        /* <=========== PAGINA CONTACT ===========> */
+        
+        #forming{
+            flex-direction: column;
+        }
+        #formes{
+            width: 100%;
+            height: auto;
+        }
+        #formdi{
+            display: block;
+            width: 100%;
+            height: auto;
+            align-items: normal;
+            justify-content: normal;
+
+        }
+        #formes h1{
+            width: 100%;
+            font-size: 88px;
+            justify-content: normal;
+            margin: 48px 0;
+        }
+        .inputtxt{
+            width: 100%;
+        }
+        #txtarea{
+            width: 92%;
+            height: normal;
+            border: 1px solid #131313;
+            padding: 0;
+            padding-top: 12px;
+            padding-left: 12px;
+}
+    }
+    @media(min-width: 1201px) and (max-width: 1400px){
+        body{
+            padding:44px ;
+        }
+        #textoprincipal{
+            width: 90%;
+        }
+
+/* <=========== PAGINA PROJETOS ===========> */
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .grid-item {
+            padding: 10px;
+            height: 380px;
+            overflow: hidden;
+        }
+        .grid-container{
+            padding: 48px 0 24px 0;
+        }
+        #projeto1, #projeto2, #projeto3, #projeto4, #projeto5, #projeto6{
+            background-size: 780px;
+            background-position: center;
+            margin: 1px;
+        }
+        
+    }
