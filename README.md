@@ -1,3 +1,3 @@
-# Estudos-Front-end
-Aqui eu organizo a evolução dos meus estudos de Front-end.
+# Estudos-HTML & CSS
+Aqui eu organizo alguns estudos de HTML e CSS na criação de páginas.
 01
